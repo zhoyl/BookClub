@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="7d121561ce9d4d25b68bc0b4f7f4abba" Name="Diagram1">
+        <EntityTypeShape EntityType="alekseevaModel.Manufacture" Width="1.5" PointX="0.75" PointY="2.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="alekseevaModel.Order" Width="1.5" PointX="3" PointY="7.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="alekseevaModel.Order_product" Width="1.5" PointX="5.25" PointY="2.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="alekseevaModel.Point" Width="1.5" PointX="0.75" PointY="6.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="alekseevaModel.Product" Width="1.5" PointX="3" PointY="2" IsExpanded="true" />
+        <EntityTypeShape EntityType="alekseevaModel.Role" Width="1.5" PointX="7.75" PointY="1.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="alekseevaModel.Status" Width="1.5" PointX="0.75" PointY="8.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="alekseevaModel.Temp" Width="1.5" PointX="7" PointY="5.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="alekseevaModel.User" Width="1.5" PointX="10" PointY="0.875" IsExpanded="true" />
+        <AssociationConnector Association="alekseevaModel.FK_Product_Manufacture" ManuallyRouted="false" />
+        <AssociationConnector Association="alekseevaModel.FK_Order_Point1" ManuallyRouted="false" />
+        <AssociationConnector Association="alekseevaModel.FK_Order_product_Order" ManuallyRouted="false" />
+        <AssociationConnector Association="alekseevaModel.FK_Order_Status" ManuallyRouted="false" />
+        <AssociationConnector Association="alekseevaModel.FK_Order_product_Product" ManuallyRouted="false" />
+        <AssociationConnector Association="alekseevaModel.FK_Temp_Product" ManuallyRouted="false" />
+        <AssociationConnector Association="alekseevaModel.FK_User_Role" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
